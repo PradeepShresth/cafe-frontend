@@ -1,0 +1,55 @@
+
+/* ------------------------------------------------------------------- */
+
+/* CUSTOMER TESTIMONIALS */
+
+/* -------------------------------------------------------------------- */
+
+.section-testimonials {
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg); */
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+.btn-review-image,
+.btn-review-image:hover {
+    cursor: pointer;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 200px;
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: #fff;
+    float: right;
+}
+
+blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+}
+
+blockquote::before {
+    content: '\201C';
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+
+cite img {
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}

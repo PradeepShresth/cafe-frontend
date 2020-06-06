@@ -1,0 +1,76 @@
+header {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-text-box h1 {
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+.logo-black { 
+    display: none;
+    height: 50px;
+    width: auto;
+    float: left;
+    margin: 5px 0;
+}
+
+.btn-edit-banner {
+    cursor: pointer;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 200px;
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    margin-left: 30px;
+    color: #fff;
+}
+
+.btn-edit-banner:hover,
+.btn-edit-banner:active {
+    border: 1px solid #cf6d17;
+    color: #fff;
+}
+
+/* STICKY NAV */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.973);
+    box-shadow: 0 2px 2px #efefef;
+    z-index: 700;
+}
+
+.sticky .main-nav { margin-top: 18px; }
+
+.sticky .main-nav li a {
+    padding: 16px 0;
+    color: #555;
+}
+
+.sticky .logo { display: none; }
+
+.sticky .logo-black { display: block; }

@@ -1,0 +1,76 @@
+/* ------------------------------------------------------------------- */
+
+/* MENU */
+
+/* -------------------------------------------------------------------- */
+
+.menu-buttons {
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.menu-button {
+    color: #555;
+    padding: 0px 20px 16px 20px;
+    border-bottom: 3px solid transparent;
+}
+
+.menu-button:hover,
+.menu-button:active,
+.menu-selected {
+    color: #e67e22;
+    border-bottom: 3px solid #e67e22;
+    transition: border 0.8s;
+}
+
+.meal-col {
+    margin-left: 0;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.meal-image {
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+.meal-image img {
+    width: 100%;
+    height: auto;vertical-align: middle;
+}
+
+.meal-info {
+    padding-left: 20px;
+}
+
+.meal-info h3 {
+    font-weight: 400;
+    text-transform: none;
+}
+
+.meal-info p {
+    font-size: 90%;
+    line-height: 145%;
+}
+
+.add-menu {
+    cursor: pointer;
+    margin-top: 50px;
+    border: 3px dashed #e67e22;
+    border-radius: 10px;
+}
+
+.meal-info h3 i{
+    font-size: 150%;
+    cursor: pointer;
+    color: #e67e22;
+    margin-left: 20px;
+}
+.meal-info h3 i:hover{
+    font-size: 150%;
+    cursor: pointer;
+    color: #fa0000;
+    margin-left: 20px;
+}
